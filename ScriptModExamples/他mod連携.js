@@ -32,4 +32,9 @@ function initClass(){
 	}
 }
 
+//ワールドロード時に適応
+function newLevel(){
+	initClass();
+}
+
 //他modで実行する際は[TestClass.view();]とかく
